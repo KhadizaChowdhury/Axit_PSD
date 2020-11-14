@@ -25,7 +25,7 @@ font-family: 'Raleway', sans-serif;*/
 	padding: 20px!important;
 }
 .nav-link{
-	color: #b0b0b0 !important;
+	color: #ccc8c8fa !important;
 }
 .nav-link:hover{
 	color: #ff9b51 !important;
@@ -34,10 +34,10 @@ font-family: 'Raleway', sans-serif;*/
 	width: 100%;
 }
 .navbar-nav{
-    margin-left: 400px;
+    margin-left: 50%;
 }
 .nav-item{
-	padding-right: 40px;
+	padding-right: 10%;
 }
 .nav-link{
         font-weight: 600;
@@ -66,8 +66,12 @@ font-family: 'Raleway', sans-serif;*/
 .txt .line{
 	height: 2.3px;
 	width: 70px;
-	margin: 30px 0px;
+	margin: 1.5% 0px;
 	background-color: white;
+}
+.Header .lt{
+	display: flex;
+	justify-content: flex-end;
 }
 .Header p{
 	font-family: 'Raleway', sans-serif;
@@ -85,8 +89,9 @@ font-family: 'Raleway', sans-serif;*/
 	transition: 0.5s;
 }
 .Header .btn:hover{
-	background: white;
-    color: navy;
+	background: #FF8B38;
+    color: white;
+    border: 1px solid #FF8B38;
     font-weight: 490;
 	transition: 0.5s;
 }
@@ -94,11 +99,8 @@ font-family: 'Raleway', sans-serif;*/
 	outline: none;
 	box-shadow: none;
 }
-.Header .h-form{
-	height: 100vh;
-	display: table-cell;
-	vertical-align: middle;
-	margin: 40px;
+.h-form{
+	padding-top: 20%;
 }
 .card:focus{
 	outline: none;
@@ -114,9 +116,7 @@ font-family: 'Raleway', sans-serif;*/
 }
 .h-form .card{
 	border: none;
-	width: 380px;
-	height: 400px;
-	margin: 40px;
+	width: 95%;
 }
 .h-form .card-header{
     padding: .55rem 1.25rem;
@@ -137,7 +137,7 @@ font-family: 'Raleway', sans-serif;*/
 	padding: 0px 7px;
 	border-bottom: 1px solid #cccccc;
 	line-height: 2.7;
-    width: 300px;
+    width: 88%;
 }
 .h-form .card-body input:focus{
 	outline: none;
@@ -180,14 +180,14 @@ p{
 	text-decoration: none;
 }
 .social-icon{
-	padding: 30px;
+	padding: 2%;
 	text-align: right;
 	display: inline-block;
 }
 .social-icon ul li{
 	list-style: none;
 	display: inline-block;
-	margin-right:45px;
+	margin-right:6%;
 }
 .social-icon ul li a i{
 	color: #cccccc;
@@ -198,6 +198,10 @@ p{
 .social-icon ul li a i:hover{
 	transform: scale(1.3);
 	transition: 0.5s;
+    color:#FF8B38;
+}
+.social-icon ul li a i:focus{
+    outline: none;
 }
 /*P2*/
 .P2{
@@ -205,7 +209,7 @@ p{
 	height: 100vh;
 	background: #f5f5f5;
 	display: inline-block;
-	padding: 200px 100px;
+	padding: 9%;
 	
 }
 .P2 .col-md-2 ul li{
@@ -301,7 +305,7 @@ p{
 	height: 100vh;
 	background: white;
 	display: inline-block;
-	padding-top: 110px;
+	padding: 9% 5%;
 }
 .bdy{
     padding-left: 35px;
@@ -317,7 +321,6 @@ p{
 }
 .Feature_1 .up{
 	padding-top: 8px;
-    padding-left: 50px;
 }
 .Feature_1 h5{
 	font-family: 'Open Sans',sans-serif;
@@ -328,30 +331,24 @@ p{
 .Feature_1 .circle{
 	margin: 20px auto;
 }
-.Feature_1 .crcl{
-	height: 45px;
+.Feature_1 .col-md-2{
+	text-align: center;
+}
+.Feature_1 .col-md-2 a i{
+	color: #FF8B38;
+    height: 45px;
 	width: 45px;
+	text-align: center;
+	line-height: 40px;
 	background: transparent;
-	position: relative;
-	top: 8px;
-    left: 50px;
 	border: 3px solid #FF8B38;
 	border-radius: 50%;
 }
-.Feature_1 .fa{
-	color: #FF8B38;
-	position: absolute;
-    top: 22px;
-    left: 79px;
-}
-.Feature_1 .row .col-md-9{
-    padding-top: 17px;
-}
-.Feature_1 .row .col-md-9 .d{
+.Feature_1 .row .col-md-10 .d{
     margin-bottom: 0px!important;
 }
 .Feature_1 .line{
-	margin: 20px 0px;
+	margin: 1% 0px;
 	height: 2.3px;
 	width: 80px;
 	background-color:  #FF8B38;
@@ -366,13 +363,13 @@ p{
 .Feature_2{
 	width: 100%;
 	height: 100vh;
-	padding: 135px 80px;
+	padding: 9% 5%;
 	background: #f5f5f5;
 }
 .Feature_2 .line{
 	height: 2.3px;
 	width: 70px;
-	margin: 30px 0px;
+	margin: 1.5% 0px;
 	background-color:  #FF8B38;
 }
 .Feature_2 h3{
@@ -384,25 +381,24 @@ p{
 .process{
 	width: 100%;
 	height: 100vh;
-	padding-top: 30px;
+	padding: 5%;
 	text-align: center;
 }
 .process .line{
 	height: 2.3px;
 	width: 70px;
-	margin: 30px auto;
+	margin: 1.5% auto;
 	background-color:  #FF8B38;
 }
 .process .row{
-    margin-top: 70px;
+    padding: 4% 0px;
 }
 .process .fa{
 	color: #FF8B38;
 	font-size: 32px;
 }
 .process .col-md-4{
-	max-width: 31%!important;
-	margin-left: 21px;
+	padding: 0px 15px;
 }
 .process h1{
 	color: #212121;
@@ -414,52 +410,43 @@ p{
 	color: #333333;
     font-weight: bold;
 }
-.process .circle{
-	margin: 20px auto;
+.process .service-1 a i{
+    height: 50px;
+    width: 50px;
+    border: 3px solid #ff8b38;
+    text-align: center;
+    line-height: 45px;
+    font-size: 26px;
+    border-radius: 100%;
+    color: #ff8b38;
 }
-.process .crcl{
-	height: 60px;
-	width: 60px;
-	background: transparent;
-	position: relative;
-    margin: 12px auto;
-	border: 3px solid #FF8B38;
-	border-radius: 50%;
-}
-.process .fa{
-	position: absolute;
-    top: 35px;
-    left: 168px;
-}
-.process .k{
-	left: 160px;
-}
-
-
 .price{
 	width: 100%;
-	height: 150vh;
+	height: auto;
 	background-color:  #f5f5f5;
-	padding-top: 30px;
+	padding: 3%;
 	text-align: center;
 }
 .price .line{
 	height: 2.3px;
 	width: 70px;
-	margin: 30px auto;
+	margin: 1.5% auto;
 	background-color:  #FF8B38;
 }
 .price .row{
-    margin-top: 70px;
+    padding: 5%;
 }
 .price h1{
 	font-family: 'Raleway', sans-serif;
 	color: #212121;
 	text-transform: uppercase;
 }
+.price .col-md-3{
+    padding: 0px 10px;
+}
 .price .card{
 	border:none;
-	width: 320px;
+    padding: 0px 0px;
 }
 .price .card-header{
 	background :#333333;
@@ -488,8 +475,8 @@ p{
 	font-size: 35px;
 }
 .price .dn{
-	padding-top: 30px;
 	border-bottom: none;
+	padding-top: 5%;
 }
 .price .card-body p{
 	margin-bottom: 0px;
@@ -533,12 +520,12 @@ p{
 	padding-top: 30px;
 }
 .customer .up{
-	padding: 50px 0px;
+	padding: 5% 0px;
 }
 .customer .line{
 	height: 2.3px;
 	width: 70px;
-	margin: 30px auto;
+	margin: 1.5% auto;
 	background-color:  #FF8B38;
 }
 .customer .fa{
@@ -546,8 +533,8 @@ p{
 	font-size: 32px;
 }
 .service-1 .col-md-4{
-	padding-top: 10px; 
-	padding-left: 35px;
+	padding-top: 3%; 
+	padding-left: 8%;
 }
 
 .customer h1{
@@ -556,17 +543,17 @@ p{
 	text-transform: uppercase;
 }
 .customer .pr{
-	padding: 15px 0px;
-}
+	padding:5%;
+	}
 .customer .box{
-	margin: 20px auto;
+	margin: 5% auto;
 }
 .customer .outer{
-	height: 150px;
-	width: 300px;
+	height: auto;
+	width: 90%;
 	background: #f5f5f5;
 	position: relative;
-    padding: 12px;
+    padding: 8px;
 	border: 3px solid #f5f5f5;
 	border-radius: 3%;
 	font-style: italic;
@@ -581,8 +568,8 @@ p{
 	width: 20px;
 	position: absolute;
 	background-color: #f5f5f5;
-    bottom: 15px;
-    left: 53px;
+    bottom: 4%;
+    left: 15%;
     transform: rotate(45deg);
 }
 .dsgn{
@@ -599,7 +586,7 @@ p{
 .dsgn .line{
 	height: 2.3px;
 	width: 70px;
-	margin: 30px auto;
+	margin: 1.5% auto;
 	background-color:  white;
 }
 .dsgn h1{
@@ -632,17 +619,16 @@ p{
 .end{
 	width: 100%;
 	background: white;
-	height: 100vh;
+	padding: 5%;
 }
 .end .top{
-    padding-top: 70px;
     padding-bottom: 10px;
 	color: black;
 }
 .end .line{
 	height: 2.3px;
 	width: 70px;
-	margin: 25px auto;
+	margin: 1.25% auto;
 	background-color:  #FF8B38;
 }
 .end h1{
@@ -650,18 +636,18 @@ p{
     color: #212121;
 	text-transform: uppercase;
 }
+.end .col-md-6{
+	padding-left: 4%;
+}
 .end .card-body{
 	line-height: 5;
-}
-.end .col-md-6{
-	padding: 0px 40px;
 }
 .end .card-body input{
 	padding: 0px 7px;
 	border-style: none;
 	border-bottom: 1.5px solid #d6d6d6;
 	line-height: 2.7;
-    width: 480px;
+    width: 98%;
 }
 .end input::placeholder{
 	color: #b9babf;
@@ -669,25 +655,25 @@ p{
 .end input:focus{
 	outline:none;
 }
-.end .r{
-	padding: 0px 5px;	
+textarea {
+    border: none;
+    border-bottom: 1.5px solid #d6d6d6;
+    border-radius: 0;
+    width: 100%;
+    padding-top: 10%;
+    height: 242px;
 }
-.end .r input{
-	padding: 0px 7px;
-    padding-bottom: 161px;
-    font-family: 'Open Sans', sans-serif;
-	width: 450px;
-	margin-top: 55px;
-	border:none;
+textarea:focus{
+	outline: none!important;
+	border: none;
 	border-bottom: 1.5px solid #d6d6d6;
-
 }
 .end .btn{
 	padding: 10px 40px;
     border: 1px solid white;
     background: #FF8B38;
 	color: white;
-    margin: 5px auto;
+    margin: 2% auto;
     font-weight: 400;
 	transition: 0.5s;
 }
@@ -703,14 +689,393 @@ p{
 }
 .footer{
 	width: 100%;
+	height: auto;
 	background-color: black;
 }
+
 .footer .social-icon{
 	text-align: center;
+	padding: 3% 0%;
 }
 .footer p{
 	font-family: 'Open Sans', sans-serif;
     color: #777575 !important;
     font-size: 14px;
     margin-bottom: 0rem;
+}
+
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  button:focus {
+    outline: none!important;
+  }
+  .navbar-toggler {
+    background-color: white!important;
+  }
+  .navbar-toggler:hover {
+    color: #ff9b51!important;
+  }
+  .nav-item {
+    padding-right: 25px;
+  }
+  .nav-link:hover {
+    color: #ff9b51!important;
+  } 
+  .Header .row{
+    padding: 50px 10px;
+  }
+  .Header .txt {
+    height: auto;
+  }
+  .Header .txt h1 {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+  .Header .line{
+    margin: 10px 0px;
+  }
+  .Header p {
+  margin: 20px 0px;
+  margin-top: 0px;
+  }
+  .Header {
+    height: auto;
+  }
+  .Header .h-form {
+    height: auto;
+    padding: 20px;
+  }
+  .h-form .card {
+   height: auto;
+   width: 300px;
+   margin: 0px;
+  }
+  .h-form .card-body input {
+    width: 250px;
+  }
+  .h-form .card-body {
+    line-height: 4;
+    padding: 0px 20px 20px;
+  }
+  .P1 .social-icon {
+    padding-top: 4%;
+}
+  .P1 .social-icon ul li {
+    margin-right: 15px;
+  }
+  .P2 {
+    height: auto;
+    padding: 45px;
+  }
+  .P2 h3 {
+    font-size: 17px;
+  }
+  .P2 .row .col-md-6 p {
+    padding: 0px 0px 10px;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  .P2 .btn {
+    padding: 10px 25px;
+    font-weight: 400;
+  }
+  .P2 img{
+    width: 130%;
+  }
+  .Feature_1{
+    height: auto;
+    padding: 50px 0px;
+  }
+  .Feature_1 .row{
+    flex-direction: column;
+  }
+  .Feature_1 .row .col-md-6{
+  max-width: 100%;
+  text-align: center!important;
+  }
+  .Feature_1 .col-md-2{
+  max-width: 100%;
+  text-align: center!important;   
+  }
+  .Feature_1 .row .col-md-10{
+  max-width: 100%;
+  padding-top: 5%;
+  text-align: center!important;   
+  }
+  .Feature_1 .up {
+    padding-left: 20px;
+  }
+  .Feature_1 .line {
+    margin: 12px auto;
+  }
+    .Feature_2{
+    height: auto;
+    padding: 50px 0px;
+  }
+  .Feature_2 .left{
+    display: flex;
+    align-items: center;
+  }
+  .Feature_2 .line {
+    margin: 12px 0px;
+  }
+  .Feature_2 .line p{
+    font-size: 15px;
+  }
+  #About{
+    height: auto;
+  }
+  .process .row {
+  margin-top: 0px;
+  }
+  .process h1{
+    font-size: xx-large;
+  }
+ .process .line {
+    margin: 9px auto;
+  }
+  .price{
+    height: auto;
+  }
+  .price .row {
+    margin:0px;
+    padding: 10px 0px 25px;
+  }
+  .price h3{
+  font-size: large;
+  }
+  .price h1{
+  font-size: xx-large;
+  }
+  .price .card-body h1 {
+    font-size: 65px;
+  }
+  .price .card_d p{
+  font-size: 14px;
+  }
+  .price .line{
+  margin: 10px auto;
+  }
+  .price .card-footer ul li{
+    font-size: 13px;
+  }
+  .customer{
+    height: auto;
+  }
+  .customer h1{
+    font-size: xx-large;
+  }
+  .customer .up {
+    padding: 20px 0px;
+  }
+.customer .line {
+    margin: 9px auto;
+  }
+
+  .customer .pr{
+  padding-top:5%;
+  padding-left:7%;
+  }
+  .dsgn h1{
+    font-size: xx-large;
+  }
+  .dsgn .line {
+    margin: 9px auto;
+  }
+  .end{
+    height: auto;
+  }
+  textarea {
+    height: 202px;
+  }
+  .end .top {
+    padding-top: 10px;
+  }
+  .end h1{
+    font-size: xx-large;
+  }
+  .end .line {
+    margin: 9px auto;
+  }
+  .end .card-body {
+    line-height: 4;
+  }
+  .end .r input {
+    padding-bottom: 122px;
+  }
+  .footer{
+    height: auto;
+  }
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 280px) and (max-width: 480px) {
+  button:focus {
+    outline: none!important;
+  }
+  .navbar-toggler {
+    background: white!important;
+  }
+  .navbar-toggler:hover {
+    color: #ff9b51!important;
+  }
+  .navbar-nav{
+    margin-left: 50px;
+  }
+  .nav-item {
+    padding-right: 25px;
+  }
+  .nav-link:hover {
+    color: #ff9b51!important;
+  }
+  .Header{
+    height: auto;
+  }
+ .Header .h-form{
+    height: auto;
+    padding-bottom: 9%;
+    padding-left: 7%;
+  }
+  .Header .txt {
+    height: auto;
+    padding: 20px;
+  }
+  .Header .txt h1{
+    font-size: 30px;
+  }
+  .h-form .card {
+    border: none;
+    width: 95%;
+    height: 95%;
+    margin: 0px;
+  }
+  .social-icon{
+    text-align: center;
+  }
+  .social-icon ul li{
+    margin-bottom: 5%;
+  }
+  .P2 {
+    height: auto;
+    padding: 15px;
+  }
+  .P2 .row{
+    flex-direction: column-reverse;
+  }
+  .P2 h1{
+    font-size: 2rem;
+  }
+  .P2 .col-md-2{
+    order: -2;
+  }
+  .P2 .col-md-2 ul{
+    display: flex;
+  }
+   .P2 .col-md-2 ul li{
+    margin: 1%;
+    width: 40%;
+    height: 45%;
+   }
+   .P2 .col-md-6{
+    padding: 4% 3%;
+    order: -3;
+   }
+   .P2 .row .col-md-4 {
+    display: flex;
+    padding: 5%;
+    order: -1;
+    justify-content: center;
+  }
+  .P2 .row .col-md-4 img{
+    width: 90%;
+  }
+  .Feature_1 {
+    height: auto;
+    padding: 15px;
+  }
+  .Feature_1 h1{
+    font-size: 2rem;
+  }
+  .Feature_1 .col-md-10{
+    padding-top: 5%;
+    text-align: center;
+  }
+  .Feature_2 {
+    height: auto;
+    padding: 15px;
+  }
+  .Feature_2 h1{
+    font-size: 2rem;
+  }
+  .Feature_2 .row{
+    flex-direction: column-reverse;
+  }
+  #About {
+    height: auto;
+    padding: 15px;
+  }
+  #About h1{
+    font-size: 2rem;
+  }
+  .price {
+    height: auto;
+    padding: 15px;
+  }
+  .price h1{
+    font-size: 2rem;
+  }
+  .price .pricing-card-middle{
+    padding-bottom: 12%;
+  }
+  .price .dn{
+  padding-bottom: 10%;
+}
+  #Reviews{
+    height: auto;
+    padding: 15px;
+  }
+  .dsgn h1{
+    font-size: xx-large;
+  }
+  #Reviews h1{
+    font-size: 1.8rem;
+  }
+  #Reviews .service-1{
+    margin-left: 6%;
+  }
+  .end {
+    height: auto;
+    padding: 8%;
+  }
+  .end h1{
+    font-size: 2rem;
+  }
+  .end .card-body{
+    padding: 0px;
+  }
+  textarea {
+    height: 150px;
+  }
+  .end .btn{
+    margin-top: 9%;
+  }
+  .Footer {
+    height: auto;
+    padding: 15px;
+  }
+  .footer .social-icon{
+  text-align: center;
+  padding: 10% 0%;
+  }
 }
